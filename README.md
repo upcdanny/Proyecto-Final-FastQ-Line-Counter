@@ -88,7 +88,7 @@ c) Ejecutar el script:
 
 ## Autores
 
-Danny Yupa (
+Danny Yupa (https://github.com/upcdanny)
 Danajhet (https://github.com/DanaUPC)
 
 ## Agradecimientos
