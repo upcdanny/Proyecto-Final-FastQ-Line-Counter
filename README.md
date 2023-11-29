@@ -41,19 +41,46 @@ Este archivo Fastq contendrá las secuencias de ADN y la información de calidad
 
 6. **Interfaz Amigable:** Diseñado con una interfaz de usuario sencilla que permite a usuarios de todos los niveles ejecutar análisis de secuencias genómicas de manera intuitiva.
 
-PROCESO DE INSTALACIÓN
+## PROCESO DE INSTALACIÓN
 
+**Instalación desde un archivo**
 
+1. Descarga el archivo `Proyecto-Final-FastQ-Line-Counter.sh`.
 
+2. Navega al directorio donde se encuentran los datos del proyecto.
 
+3. Ejecuta el script principal:
 
+   ```bash
+   ./nombre del archivo fastq.sh 
 
+  Para hacer el script ejecutable como un comando habitual, puedes realizar uno de los siguientes comandos:
 
+   **Establecer permisos y enlazarlo al directorio /usr/local/bin/:**
+   
+  `chmod +x ~/nombre del archivo fastq.sh`; (remplazar la ruta en la que se haya instalado el programa).
+  `sudo ln -s ~/nombre del archivo.sh /usr/local/bin/`
 
+  **Agregar la carpeta al PATH:**
 
+ `export PATH="$PATH:~"`; (Esta opción te permitirá usar todos los scripts/ejecutables dentro de la carpeta home/user).
+  
+ Ten en cuenta que esta opción se perderá después de reiniciar la terminal, por lo que es recomendable agregarla al archivo de perfil de tu terminal (por 
+ ejemplo, .bashrc o .zshrc).
 
+**Instalación desde GitHub**
 
+a) Clonar el respectivo repositorio
 
+git `clone` https://github.com/upcdanny/Proyecto-Final-FastQ-Line-Counter
+
+b) Navegar al respectivo directorio del proyecto
+
+`cd` Proyecto-Final-FastQ-Line-Counter
+
+c) Ejecutar el script:
+
+`./Proyecto-Final-FastQ-Line-Counter.sh archivo.fastq`
 
 ## Contribuciones
 
@@ -61,9 +88,8 @@ PROCESO DE INSTALACIÓN
 
 ## Autores
 
-
-
-
+Danny Yupa (
+Danajhet (https://github.com/DanaUPC)
 
 ## Agradecimientos
 
